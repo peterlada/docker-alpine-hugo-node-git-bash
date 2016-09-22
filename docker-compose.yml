@@ -1,0 +1,2 @@
+alpine-hugo-surge:
+  image: 'andthensome/alpine-hugo-surge:latest'
