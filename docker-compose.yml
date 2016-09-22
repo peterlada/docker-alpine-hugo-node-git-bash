@@ -1,2 +1,2 @@
-alpine-hugo-surge:
-  image: 'andthensome/alpine-hugo-surge:latest'
+alpine-hugo-surge-git:
+  image: 'andthensome/alpine-hugo-surge-git:latest'
