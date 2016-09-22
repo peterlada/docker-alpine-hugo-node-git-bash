@@ -1,6 +1,4 @@
-[![](https://images.microbadger.com/badges/image/andthensome/alpine-hugo-surge-git-bash.svg)](https://microbadger.com/images/andthensome/alpine-hugo-surge-git-bash "Get your own image badge on microbadger.com")
-
-[![](https://images.microbadger.com/badges/version/andthensome/alpine-hugo-surge-git-bash.svg)](https://microbadger.com/images/andthensome/alpine-hugo-surge-git-bash "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/andthensome/alpine-hugo-surge-git-bash.svg)](https://microbadger.com/images/andthensome/alpine-hugo-surge-git-bash "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/andthensome/alpine-hugo-surge-git-bash.svg)](https://microbadger.com/images/andthensome/alpine-hugo-surge-git-bash "Get your own version badge on microbadger.com")
 
 # Docker Alpine Hugo Surge Git Bash
 
