@@ -4,4 +4,4 @@ Minimal container with [Hugo](https://gohugo.io), [Surge client](https://www.npm
 
 ## Usage
 
-	docker run --rm andthensome/alpine-hugo-surge
+	docker run --rm andthensome/alpine-hugo-surge-git
