@@ -1,7 +1,7 @@
 FROM mhart/alpine-node:latest
 MAINTAINER Ryan Kes <ryan@andthensome.nl>
 
-ENV HUGO_VERSION 0.16
+ENV HUGO_VERSION 0.51
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_linux-64bit
 
 # Install pygments (for syntax highlighting)
@@ -12,5 +12,7 @@ ADD https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_BINA
 RUN tar xzf /usr/local/${HUGO_BINARY}.tgz -C /usr/local/bin/ \
 	&& rm /usr/local/${HUGO_BINARY}.tgz
 
-# Install surge client
-RUN npm install -g surge
+# Install make
+RUN apt-get update && apt-get install -y \
+    make \
+ && rm -rf /var/lib/apt/lists/*

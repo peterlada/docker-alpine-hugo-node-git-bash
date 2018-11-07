@@ -1,2 +1,2 @@
-alpine-hugo-surge-git-bash:
-  image: 'andthensome/alpine-hugo-surge-git-bash:latest'
+alpine-hugo-node-git-bash:
+  image: 'peterlada/alpine-hugo-node-git-bash:latest'
